@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Development Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Name</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <h2>Welcome to my personal development website!</h2>
+            <p>I'm a software developer with a passion for creating innovative solutions to real-world problems. Take a look at my work and see what I can do for you.</p>
+            <a href="#projects" class="cta">View My Work</a>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Insert your introduction and personal information here.</p>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Insert your gallery of projects here.</p>
+        </section>
+
+        <section id="blog">
+            <h2>Blog</h2>
+            <p>Insert your latest blog posts here.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form action="submit-form.php" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea name="message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy; 2023 My Name</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
